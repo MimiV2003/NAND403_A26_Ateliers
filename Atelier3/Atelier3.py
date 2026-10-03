@@ -33,17 +33,20 @@ class MessageBoard(QWidget):#definir la classe | QWidget = affiche dans lecran
         label = QLabel("Message board")
         layout.addWidget(label)
 
+        #TEST (essaie-erreur)--------------------------------------------------------------------
         #QTextEdit
         #text_edit = QTextEdit()
         #layout.addWidget(text_edit)
-
         #QLineEdit pour barre de recherche
-        self.search_bar = QLineEdit()
-        self.search_bar.setPlaceholderText("Rechercher...")
-        layout.addWidget(self.search_bar)
+        #------------------------------------------------------------------------
+        #Bonne version
+
+        self.message = QTextEdit()
+        self.message.setPlaceholderText("Entrez message...")
+        layout.addWidget(self.message)
 
 
-        button = QPushButton("Rechercher")
+        button = QPushButton("Afficher")
         layout.addWidget(button)
 
         button.clicked.connect(self.on_click)
@@ -54,9 +57,9 @@ class MessageBoard(QWidget):#definir la classe | QWidget = affiche dans lecran
 
     def on_click(self):
         #print("on click called")
-        search = self.search_bar.text()
+        message_afficher = self.message.toPlainText()
         #add QMessageBox
-        QMessageBox.information(self, "Notification", f"Allo! : {search}") #C'est cool, j'ai appris que QMessageBox peut avoir plusieur icones different
+        QMessageBox.information(self, "Notification", message_afficher) #C'est cool, j'ai appris que QMessageBox peut avoir plusieur icones different
         #Information c'est i en bleu
         #Il y a aussi le warning, le critical et question.
 
