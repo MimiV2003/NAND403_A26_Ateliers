@@ -1,10 +1,4 @@
-
-#Atelier 4-5
-#Note---------------------------------------------------------------------------------------------------------
-#Un peu plus difficile celui la
-#jai eu des erreur avec le random mais jai fini par reussir l apparition aleatoire des objets, yyyeaahh!
-#Jaime le resultat final
-#-------------------------------------------------------------------------------------------------------------
+#Atelier 6
 
 
 import random
