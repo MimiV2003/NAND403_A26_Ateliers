@@ -49,6 +49,7 @@ class RandomGenerator(QWidget):
 
         offset_x = 0
 
+        #MFor loop pour faire 3 planches par loop + creation des formes
         for _ in range(creation_maya):
 
                 #Premiere apparition de la planche
@@ -66,7 +67,7 @@ class RandomGenerator(QWidget):
                 cmds.move(6.5 + offset_x, 9, 0, objet3)
                 cmds.scale(12, 1, 1, objet3)
 
-                offset_x = offset_x + 13
+                offset_x = offset_x + 13 #Grace a plus 13, les planches ne chevauche pas
                 
         #---------------------------------------------------------------------------------------------------------------------
 
