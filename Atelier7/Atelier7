@@ -1,0 +1,31 @@
+#Atelier 7--------------------------------------------------------------------------------
+#Importation
+
+from maya import cmds
+#------------------------------------------------------------------------------------------
+#Du debut jusqu a la fin de l animation (mettre une limite)
+cmds.playbackOptions(min=0, max=100)
+
+
+nom = "monCube" #Nom de mon objet
+
+if not cmds.objExists(nom):
+    objet = cmds.polyCube(name=nom)[0] #creation de l objet
+    print("Objet cree :", objet)
+else:
+    objet = nom
+    print("L'objet existe deja :", nom)# si tu refais une creation = va dire que sa existe deja
+
+#supprime les clés-----------------------------------------------------------------------------------
+
+cmds.cutKey(objet, clear=True)
+
+#---------------------------------------------------------------------------------
+#Creation des keyframes pour faire l animation
+cmds.setKeyframe(objet, attribute="translateX", value= 20, time=0) 
+
+cmds.setKeyframe(objet, attribute="translateX", value= 1, time=50)
+
+cmds.setKeyframe(objet, attribute="translateX", value= 10, time=100)
+
+#-------------------------------------------------------------------------------
