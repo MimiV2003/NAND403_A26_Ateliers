@@ -1,0 +1,81 @@
+Bonjour collegue!
+
+Je vais expliquer comment installer le script de l'atelier 8 et de créer une icone.
+
+
+-Première étape: Tableau -------------------------------------------------------------------------
+
+Utilise l'application visuale studio pour l'atelier 8.
+Ouvrir un nouveau projet sur l'application maya.
+Dans maya il faut avoir l'onglet Script Editor/Python pour pouvoir mettre le script de l'atelier 8.
+
+1. Dans l'onglet où il y a les outils (Curves, Surfaces, Poly Modeling, etc.). Il y a une bordure qui contient une illustration d'engrenage.
+
+2. Clique sur l'engrenage ===> Appariton d'un onglet et clique sur "New Shelf".
+
+3. Une fenetre va apparaitre pour votre nouvelle création de tableau. Composer le nom de votre création comme par exemple: "Outils".
+
+4. Clique "Ok" pour confirmer.
+
+
+Création d'un tableau pour mettre vos outils: Faite!
+
+-Deuxième étape: Script -------------------------------------------------------------------------------------
+
+1. En haut de la fenetre maya, il y a un onglet nommé "Windows" ==> Clique dessus.
+
+2. Ensuite, clique la deuxième ligne appelé "General Editors".
+
+3. À droite, un autre onglet apparait. Défile la souris jusqu'au nom "Script Editor" et appuie.
+
+4. Le "Script Editor" va s'installer complètement à droite de l'écran.(Voisin de: Channel Box, Attribute Editor, etc.)
+
+5. Clique sur "Script Editor" et appuie l'onglet "Python". (C'est là qu'on va mettre le code)
+
+6. Dans visuale studio, copier le code de l'atelier 8 avec (Ctrl + c) et coller dans maya ===> dans l'onglet python (Ctrl + v).
+
+7. Ensuite, selectionne le code dans maya (Ctrl + A) et maintient le clique gauche pour déplacer le code.
+
+8. On le déplace jusqu'à le nouveau tableau créé. (Relache sur la barre vide)
+
+
+Le code est maintenant dans le tableau à outils!
+
+Troisième étape: Icon ---------------------------------------------------------------------------------------
+
+1. Dans l'explorateur de fichier, trouve le dossier "icons" avec ce parcours "Documents\maya\2025\prefs\icons".
+
+2. Ajouter l'icon donner dans ce dossier.
+
+Dans Maya:
+
+3. Dans le nouveau tableau, il y a votre outils avec une illustration par défaut.
+
+4. Clique droit de la souris et selectionne "Edit".
+
+5. Une nouvelle fenêtre apparait. (Shelf Editor)
+
+6. En haut de la fenêtre, clique sur l'onglet "Shelves".
+
+7. Selectionne votre nouveau tableau "Outils". (Dans Shelves)
+
+8. À droite, il y une section "Shelf Contents". Selectionne outils pour pouvoir le renommez.
+
+9. Clique sur la bordure "Rename" pour donner un nom à l'outil.
+
+10. En bas de la fenêtre, il y une section "Icons Preview" ===> trouve "Icon Name".
+
+11. À droite de "Icon Name", il y a une illustration de dossier. (Clique)
+
+12. Cherche "Documents\maya\2025\prefs\icons".
+
+13. Selectionne l'image et appuie sur l'onglet "Open".
+
+14. Votre nouveau icon est désormais installer dans la fenêtre (Shelf Editor).
+
+15. Fermer l'onglet "Shelf Editor".
+
+
+L'image choisis est maintenant l'icon de votre outil!
+
+Fin---------------------------------------------------------------------------------------------------
