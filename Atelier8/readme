@@ -5,9 +5,8 @@ Je vais expliquer comment installer le script de l'atelier 8 et de créer une ic
 
 -Première étape: Tableau -------------------------------------------------------------------------
 
-Utilise l'application visuale studio pour l'atelier 8.
+Utilise l'application visual studio pour l'atelier 8.
 Ouvrir un nouveau projet sur l'application maya.
-Dans maya il faut avoir l'onglet Script Editor/Python pour pouvoir mettre le script de l'atelier 8.
 
 1. Dans l'onglet où il y a les outils (Curves, Surfaces, Poly Modeling, etc.). Il y a une bordure qui contient une illustration d'engrenage.
 
@@ -32,7 +31,7 @@ Création d'un tableau pour mettre vos outils: Faite!
 
 5. Clique sur "Script Editor" et appuie l'onglet "Python". (C'est là qu'on va mettre le code)
 
-6. Dans visuale studio, copier le code de l'atelier 8 avec (Ctrl + c) et coller dans maya ===> dans l'onglet python (Ctrl + v).
+6. Dans visual studio, copier le code de l'atelier 8 avec (Ctrl + c) et coller dans maya ===> dans l'onglet python (Ctrl + v).
 
 7. Ensuite, selectionne le code dans maya (Ctrl + A) et maintient le clique gauche pour déplacer le code.
 
@@ -69,7 +68,7 @@ Dans Maya:
 
 12. Cherche "Documents\maya\2025\prefs\icons".
 
-13. Selectionne l'image et appuie sur l'onglet "Open".
+13. Selectionne l'image et appuie sur le button "Open".
 
 14. Votre nouveau icon est désormais installer dans la fenêtre (Shelf Editor).
 
